@@ -1,0 +1,148 @@
+/* Estilos Generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-size: cover;
+    background-position: center;
+    color-scheme: light;
+}
+
+/* Estilos del Encabezado */
+h1 {
+    text-align: center;
+    text-shadow: 
+        0 0 10px darkturquoise,
+        0 0 20px darkturquoise,
+        0 0 40px darkturquoise,
+        0 0 80px darkturquoise;
+    font-size: 38px;
+    color: darkslategrey;
+    margin: 0;
+}
+
+/* Estilos del Contenedor */
+.container {
+    margin: 30px auto;
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(29, 94, 77);
+}
+
+/* Estilos de Búsqueda */
+.search {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 15px 10px; 
+    outline: none;
+    border: 2px solid rgb(4, 48, 0);
+    border-radius: 5px;
+    margin: 5px;
+    flex: 1 1 40%;
+}
+
+/* Estilos específicos para el campo de materia */
+#subject {
+    width: calc(40% - 10px);
+}
+
+/* Estilos del Contenedor de Lista */
+.li-container {
+    background-color: transparent;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background-color: darkslategray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+/* Estilos de Botones */
+.btn-delete, .btn-edit, .btn-add, .btn-save {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn-delete {
+    background-color: #e31746;
+    font-weight: bold;
+    width: 10%;
+}
+
+.btn-delete:hover {
+    background-color: lightgreen;
+}
+
+.btn-add {
+    background-color: teal;
+    font-family: fantasy;
+    font-size: 1.4rem;
+    padding: 5px 15px;
+}
+
+.btn-add:hover {
+    background-color: darkcyan;
+}
+
+.btn-edit {
+    background-color: #00796b;
+    margin-left: 10px;
+}
+
+.btn-edit:hover {
+    background-color: #004d40;
+}
+
+.btn-save {
+    background-color: #00796b;
+    margin-left: 10px;
+}
+
+.btn-save:hover {
+    background-color: #004d40;
+}
+
+/* Estilos de Entrada para Edición */
+.edit-input {
+    margin-left: 10px;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    padding: 5px;
+    width: calc(100% - 120px);
+}
+
+
